@@ -1,0 +1,87 @@
+* {
+    padding: 0 !important; 
+    margin: 0 !important;
+}
+
+.first-bg-img {
+    background-image: url(../images/Group\ 186.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.first-bg-img h1{
+    margin-left: 8rem !important;
+    padding-top: 8rem !important;
+    font-weight: bold;
+    font-family: 'Public Sans', sans-serif;
+}
+.first-bg-img p{
+    margin-left: 8rem !important;
+    padding-top: 1rem !important;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.5rem !important;
+    line-height: 1.8rem !important;
+    font-weight: bold;
+}
+
+.Ticks{
+    margin-left: 11rem !important;
+    padding-top: 2rem !important;
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    font-family: 'Public Sans', sans-serif;
+}
+
+button{
+    margin: 50px 0 !important;
+    border-radius: 15px !important;
+    background-color: #2750a8 !important;
+    font-size: small !important;
+    font-family: 'Public Sans', sans-serif;
+    margin-left: 11rem !important;
+    
+}
+
+.event-space{
+    padding: 3rem !important;
+    margin: 0  !important;
+    font-family: 'Public', sans-serif;
+    color: #0e0e2c;
+    font-weight: bold;
+    font-size: small;
+}
+
+.event-space-book{
+    font-size: large;
+}
+
+.event-space .container .event-space-book .book-space{
+    font-size: 1.5rem;
+    padding: 2rem 0 !important;
+}
+
+.browse-categories p{
+    color: #9EA2BB !important;
+}
+
+.artists{
+    font-family: 'Public' sans-serif;
+    color: #0e0e2c;
+}
+
+.name{
+    font-family: 'Public', sans-serif;
+    color: #0e0e2c !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    padding: 10px !important;
+    background-color: #F6F6FA;
+    width: 270px;
+}
+
+.name img{
+    color: #0e0e2c !important;
+    margin-left: 60px !important;
+}
