@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> 
+    <link href="https://allfont.net/allfont.css?fonts=sansation-regular" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./css/card-details.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>CARD DETAILS</title>
+
+</head>
+<body>
+    <main>
+      <section class="section-1">
+        <div class="container-fluid bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href=""><img src="./img/LOGO(1).png" alt="LOGO" width="150" height="64" class="img-fluid mb-2"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex">
+                      <input class="form-control ms-lg-5 ms-md-0 ms-sm-0 mb-2" type="search" placeholder="&#128269      Search" aria-label="Search" id="search-input">
+                      </span>
+                    </form>
+                    <ul class="navbar-nav mb-3 mb-2 mb-lg-0 ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" id="text-blue">Create an Event</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" id="text-black">Auction House</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" id="text-black">Bookmarks</a>
+                      </li>
+                    </ul>
+                  </div>
+                    <div class="nav-item dropdown me-3">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="./img/Ellipse 1.png" alt="Ellipse" width="62" height="62" class="img-fluid">
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="card-details.html" id="text-black" target="_blank">Card Details</a></li>
+                        <li><a class="dropdown-item" href="new-card.html" id="text-black" target="_blank">New Card</a></li>
+                        <li><a class="dropdown-item" href="payment.html" id="text-black" target="_blank">Payment</a></li>
+                        <li><a class="dropdown-item" href="profile-no.html" id="text-black" target="_blank">profile No</a></li>
+                      </ul>
+                    </div>
+                </div>
+              </nav>
+        </div>
+    </section>
+        <section class="section-2">
+          <div class="section-2-header container pt-4">
+            <h2 class="font-public-sans fw-bolder">Payment Information</h2>
+          </div>
+          <div class="container pt-5">
+            <div class="row">
+              <div class="col-sm-12 col-md-2 col-xl-2 col-lg-2 mb-3 ">
+                <img src="./img/Card.png" alt="Debit Cards" class="img-fluid" height="85" width="140">
+              </div>
+              <div class="col-sm-12 col-md-2 col-xl-2 col-lg-2 mb-3 ">
+                <img src="./img/Flutterwave.png" alt="flutterwave" class="img-fluid" height="85" width="140">
+              </div>
+            </div>
+          </div>
+          <div class="container pt-4">
+            <div class="row">
+              <div class="col-sm-12 col-md-5 col-lg-4 mb-4">
+                <img src="./img/Cards.png" alt="Debit Card" class="img-fluid" width="516.23" height="297.54px">
+              </div>
+              <div class="col-sm-12 col-md-5 col-lg-4  mb-4  text-center">
+                <div class="text-center mt-xl-4 mt-lg-4 mt-md-2 ms-lg-5 ms-md-5 ms-sm-0" id="add-new-card">
+                  <img src="./img/carbon_add-alt.png" alt="carbon_add-alt" class="img-fluid pt-4 " height="57" width="57" id="carbon_add-alt">
+                  <p class="pt-3 font-poppins">Add new</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <p class="text-blue2 font-poppins">Close card details</p>
+          </div>
+        </section>
+        <section class="section-3">
+          <div class="container font-public-sans text-blue2 pt-5 pb-4">
+            <h4 class="">Debit card details</h4>
+          </div>
+          <form action="" class="font-poppins text-gray form">
+            <div class=" container form-group">
+              <div class="row">
+                <div class="col-sm-12 col-md-10">
+                  <label for="Cnumber" class="pb-3">Card Number</label>
+                  <input type="number" name="Cnumber" id="Cnumber" class="form-control mb-5" placeholder="1234 5678 9645 5678">
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-6">
+                  <div class=" form-group">
+                    <label for="edate" class="pb-3">Expiration date (MM/YYYY)</label>
+                    <input type="datetime" name="edate" id="edate" class="form-control mb-3" placeholder="11/05/2021">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <div class=" form-group">
+                    <label for="cvv" class="pb-3">CVV</label>
+                    <input type="number" name="cvv" id="cvv" class="form-control mb-3" placeholder="331">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </section>
+        <div class="container">
+          <p class="text-red font-poppins pt-3 mb-5">Remove card </p>
+        </div>
+    </main>
+
+
+    <script src="./script/bootstrap.min.js"></script>
+    <script src="./script/card-details.js"></script>
+</body>
+</html>

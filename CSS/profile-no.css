@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+#text-blue{
+    color: #2750A8;
+}
+
+.text-blue2{
+    color: #012762;
+}
+
+.text-gray{
+    color: #9EA2BB;
+}
+
+.text-red{
+    color: #FF0000;
+}
+
+.font-public-sans{
+    font-family: 'Public Sans', sans-serif;
+}
+
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+#add-new-card{
+    border-radius: 20px;
+    border: 1px solid #D8D8D8;
+    width: 280px;
+    height: 170px;
+} 
+
+#solid{
+    margin-top: 4rem;
+}
+
+@media (max-width: 1030px){
+
+     #add-new-card{
+        width: 240px;
+        height: 140px;
+    } 
+}
+
+@media (max-width: 430px){
+     #add-new-card{
+        width: 300px;
+        height: 200px;
+    } 
+    #carbon_add-alt{
+        margin-top: 2rem;
+    }
+}

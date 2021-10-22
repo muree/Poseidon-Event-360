@@ -1,0 +1,88 @@
+@font-face {
+  src: url(./fonts/Sansation_Bold.ttf);
+  font-family: sansationbold;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em;
+}
+.nav-link:hover {
+  color: #000;
+}
+.search-bar {
+  color: #d8d8ea;
+  display: block;
+  width: 30%;
+  margin-left: 4rem;
+}
+.search-bar ::placeholder {
+  color: #d8d8ea;
+}
+.nav-text {
+  font-family: sansationbold;
+  color: #0e0e2c;
+}
+footer {
+  background-color: #2750a8;
+}
+.card-body {
+  background-color: #2750a8;
+}
+.ft-text {
+  color: #d8d8ea;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.ft-text-sm {
+  font-size: small;
+}
+a {
+  text-decoration: none;
+}
+.nav-2 {
+  background-color: #0e0e2c;
+  font-family: "Poppins", sans-serif;
+}
+.bid-image {
+  width: 100%;
+}
+.text-color-primary {
+  background-color: #2750a8;
+}
+.bid-section {
+  padding-top: 4rem;
+}
+.bid-section-text {
+  margin-left: 3rem;
+  margin-right: 2rem;
+}
+.bid-section h1,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #012762;
+}
+.bid-section p {
+  font-family: "Poppins", sans-serif;
+  color: #d8d8ea;
+}
+.desc,
+.sel {
+  padding: 5rem;
+  display: block;
+  text-align: left;
+}
