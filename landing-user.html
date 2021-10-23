@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/landing.css">
     <link rel="stylesheet" href="./CSS/card-details.css">
+    <link rel="stylesheet" href="./Js/bootstrap.min.js">
+    <link rel="stylesheet" href="/script/bootstrap.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap" rel="stylesheet">
@@ -69,16 +71,18 @@
             </li>
           </ul>
         </div>
-        <div class="nav-item dropdown me-3">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="./img/Ellipse 1.png" alt="Ellipse" width="50" height="50" class="img-fluid">
-            </a>
+        <div class="nav-item dropdown mb-3">
+            <div class="input-group-append">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="./img/Ellipse 1.png" alt="Ellipse" width="50" height="50" class="img-fluid">
+                  </a>
+            </div>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="" id="text-black" >Profile</a></li>
               <li><a class="dropdown-item" href="" id="text-black" >Review</a></li>
               <li><a class="dropdown-item" href="payment.html" id="text-black" >Payment</a></li>
               <li><a class="dropdown-item" href="" id="text-black" >Created Events</a></li>
-              <hr>
+              <div role="separator" class="dropdown-divider"></div>
               <li><a class="dropdown-item" href="index.html" id="text-black" >Logout</a></li>
             </ul>
           </div>
@@ -375,21 +379,21 @@
           </div>
         </div>
       </footer>
-    
+      <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
     <script
-    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"
-  ></script>
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  <script src="./script/card-details.js"></script>
 </body>
 </html>
