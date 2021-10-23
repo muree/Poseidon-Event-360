@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookmark Page</title>
+    <title>Reviews</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="./css/bootstrap.css" /> -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/bookmark.css" />
+    <link rel="stylesheet" href="./css/no-rating.css" />
+    <link rel="stylesheet" href="./CSS/style.css">
     <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
@@ -18,7 +19,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body class="container-fluid">
-    <nav class="navbar navbar-expand-lg nav-txt bg-light">
+    <nav class="navbar navbar-expand-lg nav-txt bg-light ">
         <a class="navbar-brand" href="index.html">
           <img src="./img/LOGO.png" alt="" />
         </a>
@@ -65,7 +66,7 @@
               <a class="nav-link" class="active" href="#">Create an Event</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link" href="auction.html">Auction House</a>
+              <a class="nav-link" href="auctionuser.html">Auction House</a>
             </li>
             <li class="nav-item active mx-3">
                 <a class="nav-link" href="bookmark.html">Bookmarks</a>
@@ -79,17 +80,23 @@
       </nav>
       <section class="rev-hd">
         <div class="container pt-4 pb-2">
-          <h4 class="hd-txt">Bookmarks</h4>
+          <h4 class="hd-txt">Reviews & Ratings</h4>
         </div>
   </section>
-  <section class="">
+  <section class="star">
+      <div>
         <div class="img-cont pt-5">
-            <img src="img/Vector (7).png" alt="chef image" class="mx-auto p-3" width="100%"></img>
+            <img src="img/cil_star.png" alt="chef image" class="mx-auto p-3" width="100%"></img>
             </div>
+        <div class="img-cont d-flex justify-content-around">
+            <img src="img/cil_star.png" alt="chef image" class="mx-auto flex-column p-3" width="100%"></img>
+            <img src="img/cil_star.png" alt="chef image" class="mx-auto flex-column p-3" width="100%"></img>
+          </div>
+      </div>
   </section>
   <section class="text-center pt-3">
-    <h5 class="hd-txt font-weight-bold pb-4">You have no bookmark yet. Bookmark vendors to view later</h5>
-    <button class="btn str-book">Explore</button>
+    <h5 class="hd-txt font-weight-bold pb-4">You have no rating or reviews yet</h5>
+    <button class="btn str-book">Start Booking</button>
   </section>
 
 
