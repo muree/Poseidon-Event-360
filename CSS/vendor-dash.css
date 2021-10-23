@@ -1,0 +1,152 @@
+@font-face {
+  src: url(./fonts/Sansation_Bold.ttf);
+  font-family: sensationbold;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.nav-link {
+  display: inline !important ;
+  color: #0E0E2C;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-txt{
+  color: #0E0E2C ;
+}
+.a-link{
+  color: whitesmoke;
+  background-color: #0E0E2C;
+  text-decoration: none;
+}
+.txt{
+  color: #2750A8 !important;
+}
+.back{
+  background-image: url(../img/Rectangle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+.chef{
+  max-width: 800px !important;
+  /* margin: 0 auto; */
+  height: 100px;
+  margin-top: -240px;
+}
+.img-cont{
+  max-width: 400px;
+  margin: 0 auto;
+}
+.left{
+  margin-left: -35px;
+}
+.food-tray{
+  margin-top: 450px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.tray{
+  width: 350px;
+  height: 342px;
+}
+.book{
+  background-color: #0E0E2C;
+  color: white;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bolder;
+  padding: 15px 200px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-col{
+  background-color: #0E0E2C;
+  color: white;
+}
+.search-bar {
+  color: #d8d8ea;
+  display: block;
+  width: 520px;
+  border-color:#0E0E2C;
+  margin-left: 2rem;
+}
+.search-bar ::placeholder {
+  color: #d8d8ea;
+}
+.nav-text {
+  font-family: sensationbold;
+  color: #d8d8ea;
+}
+footer {
+  background-color: #2750a8;
+}
+.card-body {
+  background-color: #2750a8;
+}
+.ft-text {
+  color: #d8d8ea;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.ft-text-sm {
+  font-size: small;
+}
+a {
+  text-decoration: none;
+}
+@media (max-width: 576px){
+  .img-cont{
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .chef{
+    max-width: 400px !important;
+    /* margin: 0 auto; */
+    height: 70px;
+    margin-top: -240px;
+  }
+  .book{
+    font-size: normal;
+    font-weight: bolder;
+    padding: 10px 100px;
+  }
+}
+@media (max-width: 414px) {
+  .search-bar {
+    display: none;
+  }
+  .img-cont{
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .chef{
+    max-width: 350px;
+    /* margin: 0 auto; */
+    height: 100px;
+    margin-top: -240px;
+  }
+  .book{
+    font-size: normal;
+    font-weight: bolder;
+    padding: 10px 100px;
+  }
+}
