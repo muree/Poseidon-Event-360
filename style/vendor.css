@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-bg-image{
+    background-image: url(../Images/Group\ 176.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+}
+
+.header-bg-image div{
+    display: flex;
+    justify-content: center;
+    color: #CF0212;
+    font-size: 10rem !important;
+    padding: 7rem;
+    text-align: center;
+}
+
+.best-services-text{
+    display: flex;
+    justify-content: center;
+    color: #012762;
+    font-weight: bold;
+}
+
+.best-services p{
+    display: flex;
+    justify-content: center;
+    color: #012762;
+    font-weight: bold;
+}
+
+.categories{
+    background: #F6F6FA;
+}
+
+.categories .categories-texts{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    padding-top: 5rem;
+    margin: 0 6.5rem;
+}
+
+.categories .categories-images{
+    display: flex;
+    justify-content: center;
+}
+
+.categories .categories-images div img{
+    margin: 15px;
+}
+
+.categories div h6{
+    color: #012762;
+    padding: 1rem;
+    margin-left: 4rem;
+}
+
+.categories div button{
+    width: 150px;
+    height: 50px;
+    background-color: #012762;
+    color: white;
+    font-weight: bold;
+    margin-right: 5rem;
+    border: none;
+}
+
+.categories-images .p-0 img{
+    padding: 0;
+}
+
+@media(max-width: 425px) {
+    .categories-texts{
+        margin: 0 0 0 0 !important;
+        padding: 0 !important;
+    }
+
+    .categories .categories-texts .btn
+    {
+       margin-right: 30px !important;
+       padding: 0 !important;
+       margin-left: 0 !important;
+
+    }
+
+    .categories div h6{
+      padding-left: 0;
+      margin-left: 20px !important;
+    }
+    
+}
