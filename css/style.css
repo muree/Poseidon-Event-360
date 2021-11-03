@@ -21,8 +21,7 @@ body {
 .nav-link:hover {
   color: #000;
 }
-.navbar-collapse {
-}
+
 .search-bar {
   color: #d8d8ea;
   display: block;
@@ -53,4 +52,7 @@ footer {
 }
 a {
   text-decoration: none;
+}
+.head {
+  background-image: url("../img/Rectangle\ 229.png");
 }

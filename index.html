@@ -6,11 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page 1</title>
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
     <link rel="stylesheet" href="./CSS/landing.css">
+    <link rel="stylesheet" href="./CSS/auction.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/standard.css">
+
+    <link rel="stylesheet" href="./fonts/icomoon/style.css">
+    <link rel="stylesheet" href="./CSS/owl.carousel.min.css">
+    <link rel="stylesheet" href="./CSS/style-n.css">
     <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
@@ -21,12 +33,12 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
         <a class="navbar-brand" href="index.html">
           <img src="./img/LOGO.png" alt="" />
         </a>
         <button
-          class="navbar-toggler nav-text"
+          class="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavDropdown"
@@ -58,16 +70,16 @@
         </form>
           <ul class="navbar-nav ms-auto text-center nav-text">
             <li class="nav-item active mx-3">
-              <a class="nav-link" href="#">Create an Event</a>
+              <a class="nav-link" href="create-event.html">Create an Event</a>
             </li>
             <li class="nav-item mx-3">
               <a class="nav-link" href="auction.html">Auction House</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link" href="#">Login</a>
+              <a class="nav-link" href="login-page.html">Login</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link" href="#">Signup</a>
+              <a class="nav-link" href="signup-user.html">Signup</a>
             </li>
           </ul>
         </div>
@@ -86,7 +98,7 @@
                 Your journey starts <br> here.
             </p>
 
-            <div class="Ticks text-white col-3 d-none d-xl-block d-md-block " style="font-size: 1.5rem !important;">
+            <div class="Ticks text-white col-3 d-none d-lg-block d-md-block " style="font-size: 1.5rem !important;">
                 <div class="py-2">
                     <img src="./images/TICK.png" alt="" class="col-1"> Honest pricing
                 </div>
@@ -105,7 +117,7 @@
     </section>
         
     <section class="event-space">
-        <div class="container">
+        <div class="container text-center">
             <div class="event-space-book">
                 <p class="book-space">
                     Book a unique space for your event.
@@ -113,15 +125,15 @@
             </div>
             
             <div class="row d-flex justify-content-center">
-                <div class="col-4">   
+                <div class="col-md-4">   
                     <img src="./images/Rectangle 99.png" alt="" class="col-10"> 
-                    <p style="background-color: #F6F6FA; height: 70px;" class="col-10 px-3 py-2"> Unforgettable Weddings with <br> the right space.</p>
+                    <p style="background-color: #F6F6FA; height: 70px;" class="col-10 px-3 py-2 "> Unforgettable Weddings with <br> the right space.</p>
                 
                     <img src="./images/Rectangle 99-1.png" alt="" class="col-10"> 
                     <p style="background-color: #F6F6FA; height: 70px;" class="col-10 px-3 py-2">  Bury the dead with the right space <br> for a funeral.</p>                    
                 </div>
 
-                <div class="col-4"  >
+                <div class="col-md-4"  >
                     <img src="./images/Rectangle 96.png" alt="" class="col-10"> 
                     <p style="background-color: #F6F6FA; height: 70px;" class="col-10 px-3 py-2">Unforgettable Birthdays with <br> the right space.</p>
 
@@ -129,16 +141,16 @@
                     <p  style="background-color: #F6F6FA; height: 70px;" class="col-10 px-3 py-2"> Show off your Exhibition with <br> the right space.</p>
                 </div>
 
-                <div class="col-4">
+                <div class="col-lg-4">
                     <img src="./images/Rectangle 99-3.png" alt="" class="col-10"> 
                     <p style="background-color: #F6F6FA; height: 70px;" class="col-10 px-3 py-2">Play sports the right way in the <br>right space.</p>
                 </div>
             </div>
 
-            <div class="browse-categories py-5 col-12">
+            <div class="browse-categories py-5 col-12 ">
                 <a href="#" class="text-decoration-none">
-                    <p>
-                        Browse all spaces<img src="./images/Vector.jpg" alt="" class="px-3">
+                    <p class="fs-6 align-middle">
+                        Browse all spaces<i class='bx bx-right-arrow-alt bx-md align-middle'></i>
                     </p> 
                 </a>
             </div>
@@ -146,44 +158,48 @@
         </div>
     </section>
 
-    <section class="about-us pt-5 pb-5">
-        <div class="row col-12">
-            <img src="./images/Rectangle 120.png" alt="" class="col-5">
-            <img src="./images/Info.jpg" alt="" class="col-6" style="margin-left: 3rem !important;">
+    <section class="about-us pt-5 pb-5 ">
+        <div class="row px-5">
+            <img src="./images/Rectangle 120.png" alt="" class="col-lg-5 img-fluid">
+            <div class="text-center pt-5 px-5 col-lg-5">
+                <h3 class="py-4">About Us</h3>
+                <p class="san-text fs-5">Event360.ng is a web app that allows users to book or plan any event by contacting vendors available on the web app. The web app contains vendors from all spheres, from entertainment, to cuisines, to event centres e.t.c.
+
+                    It also serves as an auction site, where users can auction off their works. It is open to a variety of individuals from Painters, to fashion designers, to graphic artists, sculptors e.t.c.</p>
+            </div>
         </div>
     </section>
 
-    <section class="artists mt-5">
-        <div class="row">   
-            <div class="row justify-content-center d-flex">
-
-                <h3 class=" d-flex py-5" style="padding-left: 11rem !important; margin-right: 0 !important;">
+    <section class="mt-5 container-fluid text-center">
+        <div class="row bg-color justify-content-center d-flex text-center">   
+            <div class="mx-4">
+                <h3 class="py-5">
                     Choose from a variety of artists.
                 </h3>
-
-                <div class="col-3  px-2">               
-                    <img src="./images/Rectangle 101.png" alt="" class="col-10"> 
-                    <a href="vendor-dashboard.html" class="text-decoration-none">
-                        <p class="name d.flex">
-                            Nathaniel Tetteh<img src="./images/Vector.jpg" alt="" class="px-3">
+            </div>
+            <div class="col-md-3 col-10 card">               
+                    <img src="./images/Rectangle 101.png" alt="" class="img-fluid"> 
+                <a href="vendor-profile.html" class="text-decoration-none">
+                        <p class="name">
+                            Nathaniel Tetteh<i class='bx bx-right-arrow-alt bx-md align-middle mx-5'></i>
                         </p> 
-                    </a>
-                </div>                
+                </a>
+           </div>                
 
-                <div class="col-3  px-2">
-                    <img src="./images/Rectangle 101-2.png" alt="" class="col-10"> 
+                <div class="col-md-3  card col-10 mx-3">
+                    <img src="./images/Rectangle 101-2.png" alt="" class="img-fluid"> 
                     <a href="#" class="text-decoration-none">
                         <p class="name d.flex">
-                            Sam Kiefte. <img src="./images/Vector.jpg" alt="" class="px-3">
+                            Sam Kiefte. <i class='bx bx-right-arrow-alt bx-md align-middle mx-5'></i>
                         </p> 
                     </a>
                 </div>
                 
-                <div class="col-3  px-2">
-                    <img src="./images/Rectangle 101-1.png" alt="" class="col-10">
+                <div class="col-md-3  card col-10">
+                    <img src="./images/Rectangle 101-1.png" alt="" class="img-fluid">
                     <a href="#" class="text-decoration-none">
                         <p class="name d.flex">
-                            Dave Mock.<img src="./images/Vector.jpg" alt="" class="px-3">
+                            Dave Mock.<i class='bx bx-right-arrow-alt bx-md align-middle mx-5'></i>
                         </p> 
                     </a>
                 </div>
@@ -191,7 +207,7 @@
                 <div class="browse-categories py-5 col-12" style="padding-left: 170px !important;">
                     <a href="artist-category.html" class="text-decoration-none">
                         <p>
-                            See all artists<img src="./images/Vector.jpg" alt="" class="px-3">
+                            See all artists<i class='bx bx-right-arrow-alt bx-md align-middle mx-5'></i>
                         </p> 
                     </a>
                 </div>
@@ -200,37 +216,36 @@
         </div>
     </section>
         
-    <section artists cusine>
-        <div class="row">   
-            <div class="row justify-content-center d-flex">
-
-                <h3 class=" d-flex py-5" style="padding-left: 11rem !important; margin-right: 0 !important;">
-                    Get a taste of diversity with the right cusine.
-                </h3>
-
-                <div class="col-3  px-2">               
-                    <img src="./images/Rectangle 101-3.png" alt="" class="col-10"> 
+    <section class="mt-5 container-fluid text-center">
+        <div class="row justify-content-center d-flex text-center">   
+            <div class="mx-4">
+                    <h3 class="d- py-5">
+                     Get a taste of diversity with the right cusine.
+                    </h3>
+            </div>
+                <div class="col-md-3 col-10 card">               
+                    <img src="./images/Rectangle 101-3.png" alt="" class="img-fluid"> 
                     <a href="#" class="text-decoration-none">
                         <p class="name d.flex">
-                            Nigeria<img src="./images/Vector.jpg" alt="" class="px-3">
+                            Nigeria<i class='bx bx-right-arrow-alt bx-md align-middle mx-5'></i>
                         </p> 
                     </a>
                 </div>                
 
-                <div class="col-3  px-2">
-                    <img src="./images/Rectangle 101-5.png" alt="" class="col-10"> 
+                <div class="col-md-3 card col-10 mx-3">
+                    <img src="./images/Rectangle 101-5.png" alt="" class="img-fluid"> 
                     <a href="#" class="text-decoration-none">
                         <p class="name d.flex">
-                            Mama Emma. <img src="./images/Vector.jpg" alt="" class="px-3">
+                            Mama Emma.<i class='bx bx-right-arrow-alt bx-md align-middle mx-5'></i>
                         </p> 
                     </a>
                 </div>
                 
-                <div class="col-3  px-2">
-                    <img src="./images/Rectangle 101-4.png" alt="" class="col-10">
+                <div class="col-md-3 card col-10">
+                    <img src="./images/Rectangle 101-4.png" alt="" class="img-fluid">
                     <a href="#" class="text-decoration-none">
                         <p class="name d.flex">
-                            Tao Heftiba.<img src="./images/Vector.jpg" alt="" class="px-3">
+                            Tao Heftiba.<i class='bx bx-right-arrow-alt bx-md align-middle mx-5'></i>
                         </p> 
                     </a>
                 </div>
@@ -238,7 +253,7 @@
                 <div class="browse-categories py-5 col-12" style="padding-left: 170px !important;">
                     <a href="#" class="text-decoration-none">
                         <p>
-                            See all cusine<img src="./images/Vector.jpg" alt="" class="px-3">
+                            See all cusine<i class='bx bx-right-arrow-alt bx-md align-middle mx-5'></i>
                         </p> 
                     </a>
                 </div>
@@ -246,37 +261,37 @@
         </div>
     </section>
 
-    <section class="artists vendors" >
-        <div class="row">   
-            <div class="row justify-content-center d-flex">
+    <section class="mt-5 container-fluid text-center" >
+        <div class="row bg-color justify-content-center d-flex text-center">   
+            <div class="">
 
                 <h3 class=" d-flex py-5" style="padding-left: 11rem !important; margin-right: 0 !important;">
                     You Might Also Be Interested In...
                 </h3>
-
-                <div class="col-3  px-2">               
-                    <img src="./images/Rectangle 101-6.png" alt="" class="col-10"> 
+            </div>
+                <div class="col-md-3  card col-10">               
+                    <img src="./images/Rectangle 101-6.png" alt="" class="img-fluid"> 
                     <a href="#" class="text-decoration-none">
                         <p class="name d.flex">
-                            Cleaning Services<img src="./images/Vector.jpg" alt="" class="px-3">
+                            Cleaning Services<i class='bx bx-right-arrow-alt bx-md align-middle mx-5'></i>
                         </p> 
                     </a>
                 </div>                
 
-                <div class="col-3  px-2">
-                    <img src="./images/Rectangle 101-8.png" alt="" class="col-10"> 
+                <div class="col-md-3  col-10 card mx-3">
+                    <img src="./images/Rectangle 101-8.png" alt="" class="img-fluid"> 
                     <a href="#" class="text-decoration-none">
                         <p class="name d.flex">
-                            MC's. <img src="./images/Vector.jpg" alt="" class="px-3">
+                            MC's. <i class='bx bx-right-arrow-alt bx-md align-middle mx-5'></i>
                         </p> 
                     </a>
                 </div>
                 
-                <div class="col-3  px-2">
-                    <img src="./images/Rectangle 101-7.png" alt="" class="col-10">
+                <div class="col-md-3  col-10 card">
+                    <img src="./images/Rectangle 101-7.png" alt="" class="img-fluid">
                     <a href="#" class="text-decoration-none">
                         <p class="name d.flex">
-                            Photographers.<img src="./images/Vector.jpg" alt="" class="px-3">
+                            Photographers.<i class='bx bx-right-arrow-alt bx-md align-middle mx-5'></i>
                         </p> 
                     </a>
                 </div>
@@ -284,40 +299,94 @@
                 <div class="browse-categories py-5 col-12" style="padding-left: 170px !important;">
                     <a href="vendors.html" class="text-decoration-none">
                         <p>
-                            Browse all vendors<img src="./images/Vector.jpg" alt="" class="px-3">
+                            Browse all vendors<i class='bx bx-right-arrow-alt bx-md align-middle mx-5'></i>
                         </p> 
                     </a>
                 </div>
 
-            </div>
+            
         </div>
     </section>
 
-    <section class="Testimonial d.flex justify-content-center">
-        <div class="Texts">
-            <h2>
-                Testimonial.
-            </h2>
-
-            <h3>
-                What are they saying?
-            </h3>
-        </div>
-
-        <div class="testimonial-images row" style="overflow-x: auto !important;">
-            <div class="" style="width: auto !important;">
-                <img src="./images/Akachi.png" alt="" class="col-12">
+<section class="testimonial container py-5">
+    
+          <div class="row mb-5 text-center">
+            <h2 class="pt-5">Testimonials</h2>
+            <h3 class="my-5">What are they saying?</h3>               
+                <div class="col-md">
+                    <img src="./images/Akachi.png" alt="" class="">
+                </div>
+                <div class="col-md" style="">
+                    <img src="./images/Group 185.png" alt="" class="">
+                </div>
+              </div>
+                <div class="py-5 px-5" style="width: auto !important;">
+                    <img src="./images/Akachi-1.png" alt="" class="">
+                </div>
+            
             </div>
-            <div class="" style="width: auto !important;">
-                <img src="./images/Group 185.png" alt="" class="col-12">
-            </div>
-            <div class="" style="width: auto !important;">
-                <img src="./images/Akachi-1.png" alt="" class="col-12">
-            </div>
-        </div>
 
+    
+    </div>   
     </section> 
-    <footer class="">
+    <section class="container mx-auto w-75">
+      <div class="row">
+        <div class="col-md">
+          <div class="card mx-5" style="">
+            <img src="./img/Art.jpg" class="card-img-top img-fluid" alt="">
+            <h5 class="card-title color-blue">Adebayo Ogunlesi’s search for the maiden...</h5>
+              <div class="card-text">
+                <span>N 2,834,564.00 |</span> <img src="./img/timer.svg" alt="timer"> <span>7:04:23</span>
+              </div>
+              <a href="bid-page.html"><button type="button"
+                class="btn btn-outline-primary btn-lg btn-block">BID NOW</button></a>
+                <p>5676 bids</p>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card mx-5" style="">
+            <img src="./img/Rectangle 107.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title color-blue">Adebayo Ogunlesi’s search for the maiden...</h5>
+              <div class="card-text">
+                <span>N 2,834,564.00 |</span> <img src="./img/timer.svg" alt="timer"> <span>7:04:23</span>
+              </div>
+              <a href="bid-page.html"><button type="button"
+                class="btn btn-outline-primary btn-lg btn-block">BID NOW</button></a>
+                <p>324 bids</p>
+          </div>
+          
+        </div>
+        </div>
+
+        <div class="row py-5">
+          <div class="col-md">
+            <div class="card mx-5" style="">
+              <img src="./img/Rectangle 107 (1).jpg" class="card-img-top img-fluid" alt="">
+              <h5 class="card-title color-blue">Adebayo Ogunlesi’s search for the maiden...</h5>
+                <div class="card-text">
+                  <span>N 2,834,564.00 |</span> <img src="./img/timer.svg" alt="timer"> <span>7:04:23</span>
+                </div>
+                <a href="bid-page.html"><button type="button"
+                  class="btn btn-outline-primary btn-lg btn-block">BID NOW</button></a>
+                  <p>5324 bids</p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card mx-5" style="">
+              <img src="./img/Rectangle 107 (2).jpg" class="card-img-top" alt="...">
+              <h5 class="card-title color-blue">Adebayo Ogunlesi’s search for the maiden...</h5>
+                <div class="card-text">
+                  <span>N 2,834,564.00 |</span> <img src="./img/timer.svg" alt="timer"> <span>7:04:23</span>
+                </div>
+                <a href="bid-page.html"><button type="button"
+                  class="btn btn-outline-primary btn-lg btn-block">BID NOW</button></a>
+                  <p>8324 bids</p>
+            </div>
+          </div>
+          </div>
+         
+    </section>
+    <footer class="px-5 py-4">
         <div class="container ft-text">
           <div class="row">
             <div class="col-4 mx-auto">
@@ -380,5 +449,11 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"
   ></script>
+  <script src="./Js/jquery-3.3.1.min.js"></script>
+    <script src="./Js/popper.min.js"></script>
+    <script src="./Js/bootstrap.min.js"></script>
+    <script src="./Js/owl.carousel.min.js"></script>
+    <script src="./Js/main.js"></script>
+    <script src="./script/bootstrap.js"></script>
 </body>
 </html>

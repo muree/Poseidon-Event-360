@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
 
     <title>Auction User</title>
 </head>
@@ -56,7 +57,7 @@
         </form>
           <ul class="navbar-nav ms-auto text-center">
             <li class="nav-item active mx-3">
-              <a class="nav-link" href="#">Create an Event</a>
+              <a class="nav-link" href="create-event.html">Create an Event</a>
             </li>
             <li class="nav-item mx-3">
               <a class="nav-link" href="#">Help Center</a>
@@ -81,39 +82,41 @@
       </ul>
     </div>
         <!-- Hero section -->
-    <div class="container-fluid bg-blue hero">
-        <div class="row">
-          <div class="col-12	col-sm-12	col-md-6	col-lg-6	col-xl-6  hero-text">
-            <H1>100% Online Auctions</H1>
-            <p>Featuring Paintings, Artpiece, Woodwork, Designs and lot more...</p>
-            <div class="row">
-              <div class="col">
-              <p><span class="badge bg-darkblue me-2 rounded-circle">1</span>Register</p> 
+        <div class="container-fluid bg-blue hero">
+          <div class="row">
+            <div class="col-md  hero-text py-5">
+              <H1>100% Online Auctions</H1>
+              <p>Featuring Paintings, Artpiece, <br> Designs and lot more...</p>
+              <div class="row pt-4 pb-2">
+                <div class="col">
+                <p><span class="badge bg-darkblue me-2 rounded-circle">1</span>Register</p> 
+                </div>
+                <div class="col">
+                  <p><span class="badge bg-darkblue me-2 rounded-circle">2</span>Find</p>
+                </div>
+                <div class="col">
+                  <p><span class="badge bg-darkblue me-2 rounded-circle">3</span>Bid</p> 
+                </div>
               </div>
-              <div class="col">
-                <p><span class="badge bg-darkblue me-2 rounded-circle">2</span>Find</p>
-              </div>
-              <div class="col">
-                <p><span class="badge bg-darkblue me-2 rounded-circle">3</span>Bid</p> 
-              </div>
+             
+              <a href="signup-user.html"><button type="button" class="btn btn-dark">Register to Start Bidding</button>
+                </a>
             </div>
-           
-            <a href="#" type="button" class="btn bg-darkblue">Register to Start Bidding</a>
+            <div class="col-md hero-img py-4 px-5">
+              <img src="./img/pngwing 1.png" class="img-fluid" alt="">
+            </div>
           </div>
-          <div class="col-12	col-sm-12	col-md-6	col-lg-6	col-xl-6  hero-img">
-            <img src="../img/pngwing 1.png" alt="">
-          </div>
-        </div>
-    </div>
+      </div>
     <!-- </header> -->
 
     <!-- collection  -->
-    <div class="container collection">
+    <div class="container collection px-5">
+    
         
         
     <!-- card  -->
 
-      <div class="row row-cols-1 row-cols-md-3 g-4 card-section">
+      <div class="row row-cols-1 row-cols-md-3 g-4 card-section py-5">
         <div class="col">
           <div class="card h-100">
             <img src="./img/Art.jpg" class="card-img-top" alt="...">
@@ -278,6 +281,7 @@
         </div>
       </div>
     </div>
+  </div>
     <!-- footer -->
   <footer class="">
     <div class="container ft-text">
@@ -327,13 +331,20 @@
     </div>
   </footer>
   <script
-    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"
-  ></script>
-    <!--  Bootstrap Bundle with Popper --> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <script src="./Javascript/card.js"></script>
  </body>   
 </html>

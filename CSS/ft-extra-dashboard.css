@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?familly=Inter:wght@400;500;600;700;800;900&display::swap");
+body,
+button {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --offcanvas-width: 18vw;
+  --topNavbarHeight: 56px;
+}
+.sidebar-nav {
+  width: var(--offcanvas-width);
+  background-color: #012762;
+}
+.sidebar-link {
+  display: flex;
+  align-items: center;
+}
+.sidebar-link .right-icon {
+  display: inline-flex;
+  transition: ease(0.25s);
+}
+.sidebar-link[aria-expanded="true"] .right-icon {
+  transform: rotate(180deg);
+}
+.cus-side {
+  width: 18vw;
+  background: #012762;
+  position: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.ico {
+  color: black;
+}
+.nav-txt {
+  color: #0e0e2c;
+}
+.txt {
+  color: #2750a8 !important;
+}
+.hd-txt {
+  color: #012762;
+}
+.wel {
+  padding-left: 3rem;
+}
+.eve {
+  max-width: 170px;
+}
+.stat {
+  max-width: 500px;
+}
+.cal {
+  max-width: 400px;
+}
+.colr {
+  color: grey;
+}
+.cir {
+  background-color: rgba(128, 128, 128, 0.6) !important;
+  width: 3px !important;
+  border-radius: 2em;
+}
+.dott {
+  width: 5px;
+  height: 5px;
+  display: block;
+  margin-left: 5px;
+  font-size: 15px;
+  background-color: #012762 !important;
+  border-radius: 5px;
+  /* position: relative; */
+}
+td:hover {
+  background-color: rgb(168, 168, 168);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.spa {
+  margin-left: 60px;
+}
+.hap {
+  font-size: 12px;
+}
+.tel {
+  font-size: 8px;
+  color: grey;
+  width: 120px;
+  padding-top: 0;
+}
+.gp-evt {
+  margin-left: -65px;
+}
+.evt {
+  margin-bottom: 5px;
+  /* padding-left: -20px; */
+}
+.loc {
+  border-left: 3px solid #2750a8;
+  height: 20px;
+  margin-top: 5px;
+}
+.cus-nav {
+  position: absolute;
+  right: 15px;
+  width: 82vw;
+  height: 100vh;
+}
+.dash-body {
+  position: fixed;
+  height: calc(100% - var(--topnavbarHeight));
+  padding-top: 10rem;
+}
+@media (min-width: 992px) {
+  body {
+  }
+  .offcanvas-backdrop::before {
+    display: none;
+  }
+  main {
+    margin-left: var(--offcanvas-width);
+  }
+  .sidebar-nav {
+    transform: none;
+    visibility: visible !important;
+    top: var(--topNavbarHeight);
+  }
+}
+@media (max-width: 576) {
+  .gp-evt {
+    margin-left: -10px;
+  }
+}
