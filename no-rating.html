@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/no-rating.css" />
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/auction.css">
     <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
@@ -20,59 +21,67 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body class="container-fluid">
-    <nav class="navbar navbar-expand-lg nav-txt bg-light ">
-        <a class="navbar-brand" href="index.html">
-          <img src="./img/LOGO.png" alt="" />
-        </a>
-        <button
-          class="navbar-toggler nav-text active"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          style="color: black;"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse nav-text" id="navbarNavDropdown">
-          <form
-          class="
-          form-inline
-          my-2 my-lg-0
-            align-items-center
-            mr-sm-2
-            search-bar
-            mx-auto"
-        >
-
-              <input
-            class="form-control inp mr-sm-2 my-1 nav-text d-flex" 
-            type="search"
-            placeholder="&#128269 Search"
-            aria-label="Search"
-            
-          />
-          <!-- <button class="mr-sm-2 my-1 btn btn-col">Search</button> -->
-        </form>
-              <ul class="navbar-nav ms-auto txt text-center">
-            <li class="nav-item active mx-3">
-              <a class="nav-link" class="active" href="#">Create an Event</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="auctionuser.html">Auction House</a>
-            </li>
-            <li class="nav-item active mx-3">
-                <a class="nav-link" href="bookmark.html">Bookmarks</a>
-              </li>
-            <li class="nav-item mx-3">
-              <a class="nav-links d-inline" href="#"><img src="img/Ellipse 3.jpg" alt="profile image" width="30" height="30" class="rounded-circle"></a>
-              <a href="#" class="nav-links ml-n1"><img src="img/Vector (9).png" alt="drop arrow" width="10" height="5"></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 px-5">
+    <a class="navbar-brand" href="landing-user.html">
+      <img src="./img/LOGO.png" alt="" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-text" id="navbarNavDropdown">
+      <form
+      class="
+      form-inline
+      my-2 my-lg-0
+        align-items-center
+        mr-sm-2
+        search-bar
+        mx-auto
+        "
+      
+    >
+      <input
+        class="form-control mr-sm-2 my-1 nav-text d-flex" 
+        type="search"
+        placeholder="&#128269 Search"
+        aria-label="Search"
+        
+      />
+    </form>
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item active mx-3">
+          <a class="nav-link" href="create-event.html">Create an Event</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="auction.html">Auction House</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="bookmark.html">Bookmarks</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav-item dropdown mb-3">
+       
+        <a class="nav-link shadow-0 dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false" href="#"><img src="../img/Ellipse 3.jpg" alt="" style="width: 50%; height: 50%;"/></a>
+      
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item" href="profile-page.html" id="text-black" >Profile</a></li>
+          <li><a class="dropdown-item" href="review-rating.html" id="text-black" >Review</a></li>
+          <li><a class="dropdown-item" href="payment.html" id="text-black" >Payment</a></li>
+          <li><a class="dropdown-item" href="#" id="text-black" >Created Events</a></li>
+          <div role="separator" class="dropdown-divider"></div>
+          <li><a class="dropdown-item" href="index.html" id="text-black" >Logout</a></li>
+        </ul>
+      </div>
+  </nav>
       <section class="rev-hd">
         <div class="container pt-4 pb-2">
           <h4 class="hd-txt">Reviews & Ratings</h4>
