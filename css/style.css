@@ -18,8 +18,8 @@ body {
 .nav-link {
   margin-right: 1em !important;
 }
-.nav-link:hover {
-  color: #000;
+.nav-link :hover {
+  color: rgb(39, 89, 230);
 }
 
 .search-bar {
@@ -33,6 +33,7 @@ body {
 }
 .nav-text {
   font-family: sensationbold;
+  color: rgb(24, 22, 22);
 }
 footer {
   background-color: #2750a8;

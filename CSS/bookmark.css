@@ -23,52 +23,51 @@ body {
 }
 .nav-link {
   display: inline !important ;
-  color: #0E0E2C;
+  color: #0e0e2c;
   text-decoration: none;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-.nav-txt{
-  color: #0E0E2C ;
+.nav-txt {
+  color: #0e0e2c;
 }
-.a-link{
+.a-link {
   color: whitesmoke;
-  background-color: #0E0E2C;
+  background-color: #0e0e2c;
   text-decoration: none;
 }
-.txt{
-  color: #2750A8 !important;
+.txt {
+  color: #2750a8 !important;
 }
-.back{
+.back {
   background-image: url(../img/Rectangle.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 350px;
 }
-.chef{
+.chef {
   width: 800px !important;
   /* margin: 0 auto; */
   height: 100px;
   margin-top: -240px;
 }
-.img-cont{
+.img-cont {
   width: 120px;
   margin: 0 auto;
 }
-.left{
+.left {
   margin-left: -35px;
 }
-.food-tray{
+.food-tray {
   margin-top: 450px;
   margin-left: 100px;
   margin-right: 100px;
 }
-.tray{
+.tray {
   width: 350px;
   height: 342px;
 }
-.book{
-  background-color: #0E0E2C;
+.book {
+  background-color: #0e0e2c;
   color: white;
   border-radius: 10px;
   font-size: large;
@@ -77,8 +76,8 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-.str-book{
-  background-color: #2750A8;
+.str-book {
+  background-color: #2750a8;
   color: white;
   border-radius: 10px;
   font-size: large;
@@ -87,17 +86,17 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-.btn-col{
-  background-color: #0E0E2C;
+.btn-col {
+  background-color: #0e0e2c;
   color: white;
 }
-.ft-bold{
+.ft-bold {
   font-weight: bold;
 }
-.hd-txt{
-  color:#012762;
+.hd-txt {
+  color: #012762;
 }
-.rate-card{
+.rate-card {
   max-width: 500px;
   padding-left: 110px;
 }
@@ -105,7 +104,7 @@ body {
   color: #d8d8ea;
   display: block;
   width: 350px;
-  border-color:#0E0E2C;
+  border-color: #0e0e2c;
   margin-left: 2rem;
 }
 .search-bar ::placeholder {
@@ -134,13 +133,13 @@ a {
   text-decoration: none;
 }
 @media (max-width: 576px) {
-  .rate-card{
+  .rate-card {
     padding-left: 0px;
     max-width: 400px;
   }
 }
 @media (max-width: 425px) {
-  .rate-card{
+  .rate-card {
     padding-left: 0px;
     max-width: 400px;
   }
@@ -149,7 +148,7 @@ a {
   .search-bar {
     display: none;
   }
-  .rate-card{
+  .rate-card {
     padding-left: 0px;
     max-width: 400px;
   }

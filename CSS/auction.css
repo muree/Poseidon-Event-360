@@ -19,7 +19,7 @@ body {
   margin-right: 1em !important;
 }
 .nav-link:hover {
-  color: #000;
+  color: rgb(9, 12, 219);
 }
 
 .search-bar {
