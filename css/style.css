@@ -37,6 +37,7 @@ body {
 }
 footer {
   background-color: #2750a8;
+  max-height: 120vh;
 }
 .card-body {
   background-color: #2750a8;
