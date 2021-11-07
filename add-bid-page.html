@@ -64,12 +64,23 @@
             <li class="nav-item mx-3">
               <a class="nav-link" href="#">Help Center</a>
             </li>
-            <li class="nav-item mx-3">
-              <a class="nav-links d-inline" href="#"><img src="img/Ellipse 3.jpg" alt="profile image" width="30" height="30" class="rounded-circle"></a>
-              <a href="#" class="nav-links ml-n1"><img src="img/Vector (8).png" alt="drop arrow" width="10" height="5"></a>
-            </li>
+            
           </ul>
+          <div class="nav-item dropdown mb-3">
+           
+            <a class="nav-link shadow-0 dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false" href="#"><img src="../img/Ellipse 3.jpg" alt="" style="width: 50%; height: 50%;"/></a>
+          
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="profile-page.html" id="text-black" >Profile</a></li>
+              <li><a class="dropdown-item" href="review-rating.html" id="text-black" >Review</a></li>
+              <li><a class="dropdown-item" href="payment.html" id="text-black" >Payment</a></li>
+              <li><a class="dropdown-item" href="#" id="text-black" >Created Events</a></li>
+              <div role="separator" class="dropdown-divider"></div>
+              <li><a class="dropdown-item" href="index.html" id="text-black" >Logout</a></li>
+            </ul>
+          </div>
         </div>
+        
       </nav>
       <div class="p-3 btn-col text-white">
         <div class="container">
@@ -190,12 +201,12 @@
             </div>
         </div>
 
-        <footer class="">
-          <div class="container ft-text">
+        <footer class="container-fluid py-5 px-5 ">
+          <div class="text-center ft-text ">
             <div class="row">
               <div class="col-4 mx-auto">
                 <div class="card-body">
-                  <p><img src="img/LOGO.png" alt="event logo" /></p>
+                  <p><img src="./img/event360-small.png" alt="event logo" /></p>
                   <span>
                     <i class="bx bxl-twitter bx-sm mx-1 ft-text"></i>
                     <i class="bx bxl-facebook-circle bx-sm mx-1 ft-text"></i>
@@ -208,36 +219,36 @@
               </div>
               <div class="col-sm pt-4">
                 <div class="card-body ">
-                  <h5 class="card-title">Company</h5>
-                  <a href="about-us.html"><p class="card-text ft-text ft-text-sm">About Us</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm">Pricing</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm">FAQs</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm">Testimonials</p></a>
+                  <h5 class="card-title pb-3">Company</h5>
+                  <a href="about-us.html"><p class="card-text ft-text ft-text-sm pb-2">About Us</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Pricing</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">FAQs</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Testimonials</p></a>
                 </div>
               </div>
     
               <div class="col-sm pt-4">
                 <div class="card-body">
-                  <h5 class="card-title">Plan Event</h5>
-                  <a href="#"><p class="card-text ft-text ft-text-sm">Wedding</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm">Birthday</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm">Funeral</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm">Sports Event</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm">Exhibition</p></a>
+                  <h5 class="card-title pb-3">Plan Event</h5>
+                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Wedding</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Birthday</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Funeral</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Sports Event</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Exhibition</p></a>
               </div>
             </div>
               <div class="col-sm pt-4">
                 <div class="card-body">
-                  <h5 class="card-title">Contact Support</h5>
-                  <a href="#"><p class="card-text ft-text ft-text-sm">Help Center</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm">Privacy</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm">Terms and Conditions</p></a>
+                  <h5 class="card-title pb-3">Contact Support</h5>
+                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Help Center</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Privacy</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Terms and Conditions</p></a>
                 </div>
               
             </div>
           </div>
+          </div>
         </footer>
-
 
         <script
         src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -250,9 +261,12 @@
         crossorigin="anonymous"
       ></script>
       <script
-        src="script/bootstrap.min.js"
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"
       ></script>
+      <script src="./Js/jquery-3.3.1.min.js"></script>
+        <script src="./Js/popper.min.js"></script>
+        <script src="./Js/bootstrap.min.js"></script>
 </body>
 </html>
