@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/vendor-dash.css" />
+    <link rel="stylesheet" href="./CSS/auctionuser.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    
     <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
@@ -19,174 +22,171 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body class="container-fluid">
-    <nav class="navbar navbar-expand-lg nav-txt bg-light">
-      <a class="navbar-brand" href="index.html">
-        <img src="./img/LOGO.png" alt="" />
-      </a>
-      <button
-        class="navbar-toggler nav-text"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse nav-text" id="navbarNavDropdown">
-
-        <form
-        class="
-        form-inline
-        my-2 my-lg-0
-          align-items-center
-          mr-sm-2
-          search-bar">
-          
-        <div class="input-group">
-            <input
-          class="form-control inp mr-sm-2 my-1 nav-text d-flex" 
-          type="search"
-          placeholder="&#128269 Search Auctions"
-          aria-label="Search Auctions"
-          
-        />
-        <button class="mr-sm-2 my-1 btn btn-col">Search</button>
-    </div>
-      </form>
-            <ul class="navbar-nav ms-auto txt text-center">
-          <li class="nav-item active mx-3">
-            <a class="nav-link" href="create-event.html">Create an Event</a>
-          </li>
-          <li class="nav-item mx-3">
-            <a class="nav-link" href="#">Help Center</a>
-          </li>
-         
-        </ul>
-        <div class="nav-item mx-3 dropdown mb-3 shadow-0">
-             
-          <a class="nav-link shadow-0 dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false" href="#"><img src="../img/Ellipse 3.jpg" alt="" style="width: 50%; height: 50%;"/></a>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li><a class="dropdown-item" href="profile-page.html">Profile</a></li>
-            <li><a class="dropdown-item" href="landing-user.html">Homepage</a></li>
-            <li><a class="dropdown-item" href="bookmark.html-">Bookmarks</a></li>
-            <li><a class="dropdown-item" href="auctionuser.html">Auctions</a></li>
-            <li><a class="dropdown-item" href="index.html">Logout</a></li>
-          </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+    <a class="navbar-brand" href="index.html">
+      <img src="../img/LOGO.png" alt="" />
+    </a>
+    <button
+      class="navbar-toggler nav-text"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-text" id="navbarNavDropdown">
+      <form
+      class="
+      form-inline
+      my-2 my-lg-0
+        align-items-center
+        mr-sm-2
+        search-bar
+        mx-auto
+        " >
+      <input
+        class="form-control mr-sm-2 my-1 nav-text d-flex" 
+        type="search"
+        placeholder="&#128269 Search"
+        aria-label="Search"
         
-      </div>
-      </div>
-    </nav>
+      />
+    </form>
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item active mx-3">
+          <a class="nav-link" href="create-event.html">Create an Event</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="#">Help Center</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav-item dropdown mb-3">
+       
+      <a class="nav-link shadow-0 dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false" href="#"><img src="../img/Ellipse 3.jpg" alt="" style="width: 50%; height: 50%;"/></a>
+    
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <li><a class="dropdown-item" href="profile-page.html" id="text-black" >Profile</a></li>
+        <li><a class="dropdown-item" href="review-rating.html" id="text-black" >Review</a></li>
+        <li><a class="dropdown-item" href="payment.html" id="text-black" >Payment</a></li>
+        <li><a class="dropdown-item" href="#" id="text-black" >Created Events</a></li>
+        <div role="separator" class="dropdown-divider"></div>
+        <li><a class="dropdown-item" href="index.html" id="text-black" >Logout</a></li>
+      </ul>
+    </div>
+  </nav>
     <div class="p-3 btn-col text-white">
-        <div class="container">
+        <div class="container-fluid">
             <a href="howitworksuser.html" class="pl-3 p-2 a-link">How it Works</a>
             <a href="auctionuser.html" class="p-2 a-link">Browse Auction</a>
             <a href="add-bid-page.html" class="p-2 a-link">Add Bid</a>
         </div>
       </div>
 
-      <div class="back">      </div>
 
-      <div class="chef mx-auto">
-            <div class="img-cont">
-              <img src="img/Ellipse 33.png" alt="chef image" class="mx-auto rounded-circle" width="100%"></img>
+      <div class="chef mx-auto container-fluid px-5">
+            <div class="text-center">
+              <img src="./img/Ellipse 33.png" alt="chef image" class="rounded-circle img-fluid pb-3" ></img>
             </div>
             <div class="text-center w-sm-25">
                 <h3 class="text-capitalize">Naomi Emmanuel</h3>
                 <p class="text-uppercase font-weight-bold">taste with a difference</p>
-                <div class="row pl-n3 text-center">
+                <div class="row pl-n3 text-center pb-5 px-5">
                     <h4 class="col-md-4 col-md-4 col-sm-4 txt text-uppercase text-primary text-center">Food Vendor</h4>
                     <h4 class="col-md-4 col-md-4 col-sm-4 txt text-uppercase text-primary text-center">Ceo exquisite taste</h4>
                     <h4 class="col-md-4 col-md-4 col-sm-4 txt text-uppercase text-primary text-center">08162067666</h4>
                 </div>
             </div>
       </div>
-      <div class="food-tray">
-            <div class="row justify-content-between">
-                <div class="col-4 tray">
-                    <img src="img/Rectangle 229.png" alt="yam and Egg Sauce" width="100%">
+      <div class="text-center px-5 container-fluid px-5">
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-md-4 col-sm-4 text-center px-3 pt-5">
+                    <img src="./img/Rectangle 237.png" alt="yam and Egg Sauce" class="img-fluid">
                 </div>
-                <div class="col-4 tray">
-                    <img src="img/Rectangle 230.png" alt="Efo Riro" width="100%">
+                <div class="col-md-4 col-md-4 col-sm-4 text-center px-3 pt-5">
+                    <img src="./img/Rectangle 230.png" alt="Efo Riro" class="img-fluid">
                 </div>
-                <div class="col-4 tray">
-                  <img src="img/Rectangle 231.png" alt="Jollof Rice and Chicken" width="100%">
+                <div class="col-md-4 col-md-4 col-sm-4 text-center px-3 pt-5">
+                  <img src="./img/Rectangle 231.png" alt="Jollof Rice and Chicken" class="img-fluid">
                 </div>
             </div>
-            <div class="row justify-content-between mt-5">
-                <div class="col-4 tray">
-                    <img src="img/Rectangle 232.png" alt="yam and Egg Sauce" width="100%">
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-md-4 col-sm-4 text-center px-3 pt-5">
+                    <img src="./img/Rectangle 232.png" alt="yam and Egg Sauce" class="img-fluid">
                 </div>
-                <div class="col-4 tray">
-                    <img src="img/Rectangle 233.png" alt="Efo Riro" width="100%">
+                <div class="col-md-4 col-md-4 col-sm-4 text-center px-3 pt-5">
+                    <img src="./img/Rectangle 233.png" alt="Efo Riro" class="img-fluid">
                 </div>
-                <div class="col-4 tray">
-                  <img src="img/Rectangle 234.png" alt="Jollof Rice and Chicken" width="100%">
+                <div class="col-md-4 col-md-4 col-sm-4 text-center px-3 pt-5">
+                  <img src="./img/Rectangle 234.png" alt="Jollof Rice and Chicken" class="img-fluid">
                 </div>
               </div>
-              <div class="row justify-content-between mt-5">
-                <div class="col-4 tray">
-                    <img src="img/Rectangle 235.png" alt="yam and Egg Sauce" width="100%">
+              <div class="row justify-content-center">
+                <div class="col-md-4 col-md-4 col-sm-4 text-center px-3 pt-5">
+                    <img src="./img/Rectangle 235.png" alt="yam and Egg Sauce" class="img-fluid">
                 </div>
-                <div class="col-4 tray">
-                    <img src="img/Rectangle 236.png" alt="Efo Riro" width="100%">
+                <div class="col-md-4 col-md-4 col-sm-4 text-center px-3 pt-5">
+                    <img src="./img/Rectangle 236.png" alt="Efo Riro" class="img-fluid">
                 </div>
-                <div class="col-4 tray">
-                  <img src="img/Rectangle 237.png" alt="Jollof Rice and Chicken" width="100%">
+                <div class="col-md-4 col-md-4 col-sm-4 text-center px-3 pt-5">
+                  <img src="./img/Rectangle 237.png" alt="Jollof Rice and Chicken" class="img-fluid">
                 </div>
               </div>
       </div>
-      <div class="text-center pb-5">
+      <div class="text-center py-5 container-fluid px-5">
             <h5 class="text-primary txt font-weight-bold pb-4">Breakfast, African and Intercontinental dishes</h5>
             <button class="btn book">Book Now</button>
       </div>
 
-      <footer class="">
-        <div class="container ft-text">
+      <footer class="container-fluid py-5 px-5 ">
+        <div class="text-center ft-text ">
           <div class="row">
-            <div class="col-4 mx-auto">
+            <div class="col-md-4 mx-auto">
               <div class="card-body">
-                <p><img src="img/LOGO.png" alt="event logo" /></p>
-                <span>
-                  <i class="bx bxl-twitter bx-sm mx-1 ft-text"></i>
-                  <i class="bx bxl-facebook-circle bx-sm mx-1 ft-text"></i>
-                  <i class="bx bxl-instagram-alt bx-sm mx-1 ft-text"></i>
-                  <i class="bx bxl-linkedin-square bx-sm mx-1 ft-text"></i>
-                  <i class="bx bxl-pinterest bx-sm mx-1 ft-text"></i>
+                <p><img src="./img/event360-small.png" alt="event logo" /></p>
+                <span class="row justify-content-center">
+                  <i class="col bx bxl-twitter bx-sm mx-1 ft-text"></i>
+                  <i class="col bx bxl-facebook-circle bx-sm mx-1 ft-text"></i>
+                  <i class="col bx bxl-instagram-alt bx-sm mx-1 ft-text"></i>
+                  <i class="col bx bxl-linkedin-square bx-sm mx-1 ft-text"></i>
+                  <i class="col bx bxl-pinterest bx-sm mx-1 ft-text"></i>
                 </span>
                 <div><p class="ft-text-sm pt-3">© 2021 Event360</p></div>
               </div>
             </div>
             <div class="col-sm pt-4">
               <div class="card-body ">
-                <h5 class="card-title">Company</h5>
-                <a href="about-us.html"><p class="card-text ft-text ft-text-sm">About Us</p></a>
-                <a href="#"><p class="card-text ft-text ft-text-sm">Pricing</p></a>
-                <a href="#"><p class="card-text ft-text ft-text-sm">FAQs</p></a>
-                <a href="#"><p class="card-text ft-text ft-text-sm">Testimonials</p></a>
+                <h5 class="card-title pb-3">Company</h5>
+                <a href="about-us.html"><p class="card-text ft-text ft-text-sm pb-2">About Us</p></a>
+                <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Pricing</p></a>
+                <a href="#"><p class="card-text ft-text ft-text-sm pb-2">FAQs</p></a>
+                <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Testimonials</p></a>
               </div>
             </div>
   
             <div class="col-sm pt-4">
               <div class="card-body">
-                <h5 class="card-title">Plan Event</h5>
-                <a href="#"><p class="card-text ft-text ft-text-sm">Wedding</p></a>
-                <a href="#"><p class="card-text ft-text ft-text-sm">Birthday</p></a>
-                <a href="#"><p class="card-text ft-text ft-text-sm">Funeral</p></a>
-                <a href="#"><p class="card-text ft-text ft-text-sm">Sports Event</p></a>
-                <a href="#"><p class="card-text ft-text ft-text-sm">Exhibition</p></a>
+                <h5 class="card-title pb-3">Plan Event</h5>
+                <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Wedding</p></a>
+                <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Birthday</p></a>
+                <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Funeral</p></a>
+                <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Sports Event</p></a>
+                <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Exhibition</p></a>
             </div>
           </div>
             <div class="col-sm pt-4">
               <div class="card-body">
-                <h5 class="card-title">Contact Support</h5>
-                <a href="#"><p class="card-text ft-text ft-text-sm">Help Center</p></a>
-                <a href="#"><p class="card-text ft-text ft-text-sm">Privacy</p></a>
-                <a href="#"><p class="card-text ft-text ft-text-sm">Terms and Conditions</p></a>
+                <h5 class="card-title pb-3">Contact Support</h5>
+                <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Help Center</p></a>
+                <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Privacy</p></a>
+                <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Terms and Conditions</p></a>
               </div>
             
           </div>
+        </div>
         </div>
       </footer>
 
