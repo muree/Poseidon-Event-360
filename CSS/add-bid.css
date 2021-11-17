@@ -23,55 +23,56 @@ body {
 }
 .nav-link {
   display: inline !important ;
-  color: #0E0E2C;
+  color: #0e0e2c;
   text-decoration: none;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
-.nav-txt{
-  color: #0E0E2C ;
+.nav-txt {
+  color: #0e0e2c;
 }
-.a-link{
+.a-link {
   color: whitesmoke;
-  background-color: #0E0E2C;
+  background-color: #0e0e2c;
   text-decoration: none;
 }
-.txt{
-  color: #2750A8 !important;
+.txt {
+  color: #2750a8 !important;
 }
-.hd-txt{
-  color:#012762;
+.hd-txt {
+  color: #012762;
 }
-.back{
+.back {
   background-image: url(../img/Rectangle.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 350px;
 }
-.chef{
+.chef {
   width: 800px !important;
   /* margin: 0 auto; */
   height: 100px;
   margin-top: -240px;
 }
-.img-cont{
+.img-cont {
   width: 400px;
   margin: 0 auto;
 }
-.left{
+.left {
   padding-left: 25px;
 }
-.food-tray{
+.food-tray {
   margin-top: 450px;
   margin-left: 100px;
   margin-right: 100px;
 }
-.tray{
+.tray {
   width: 350px;
   height: 342px;
 }
-.book{
-  background-color: #0E0E2C;
+.book {
+  background-color: #0e0e2c;
   color: white;
   border-radius: 10px;
   font-size: large;
@@ -80,8 +81,8 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-.btn-col{
-  background-color: #0E0E2C;
+.btn-col {
+  background-color: #0e0e2c;
   color: white;
 }
 
@@ -89,31 +90,30 @@ body {
   color: #d8d8ea;
   display: block;
   width: 520px;
-  border-color:#0E0E2C;
+  border-color: #0e0e2c;
   margin-left: 2rem;
 }
-.desc{
+.desc {
   width: 400px;
   margin: 0 auto;
 }
-.upl{
+.upl {
   width: 200px;
   height: 150px;
   border-style: dashed;
   border-width: 0.3px;
   border-color: grey;
 }
-.upl-btn{
-  background-color: #2750A8;
+.upl-btn {
+  background-color: #2750a8;
   color: white;
   padding: 3px 30px;
   margin-top: 20px;
 }
-.contact{
+.contact {
   margin-top: 50px;
 }
-.contact-form{
-
+.contact-form {
 }
 .search-bar ::placeholder {
   color: #d8d8ea;
@@ -142,21 +142,21 @@ a {
 }
 
 @media (max-width: 992px) {
-  .item-upl{
+  .item-upl {
     display: block;
   }
-  .sel-cat{
+  .sel-cat {
     /* display: block; */
   }
 }
-@media (max-width:576px) {
+@media (max-width: 576px) {
   .search-bar {
     display: none;
   }
   .contact-form {
     max-width: 400px;
   }
-  .item-form{
+  .item-form {
     max-width: 400px;
   }
 }
@@ -168,7 +168,7 @@ a {
   .contact-form {
     max-width: 400px;
   }
-  .item-form{
+  .item-form {
     max-width: 400px;
   }
 }
