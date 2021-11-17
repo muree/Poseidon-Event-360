@@ -10,91 +10,72 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/add-bid.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bid.css">
     <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
-<body class="container-fluid">
-    <nav class="navbar navbar-expand-lg nav-txt bg-light">
-        <a class="navbar-brand" href="index.html">
-          <img src="./img/LOGO.png" alt=" brand logo" />
-        </a>
-        <button
-          class="navbar-toggler nav-text"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse nav-text" id="navbarNavDropdown">
-  
-  
-  
-  
-          <form
-          class="
-          form-inline
-          my-2 my-lg-0
-            align-items-center
-            mr-sm-2
-            search-bar
-            
-            "
-          
-        >
-          <div class="input-group">
-              <input
-            class="form-control inp mr-sm-2 my-1 nav-text d-flex" 
-            type="search"
-            placeholder="&#128269 Search Auctions"
-            aria-label="Search Auctions"
-            
-          />
-          <button class="mr-sm-2 my-1 btn btn-col">Search</button>
-      </div>
-        </form>
-          <ul class="navbar-nav ms-auto txt text-center">
-            <li class="nav-item active mx-3">
-              <a class="nav-link nav-text" href="create-event.html">Create an Event</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link nav-text" href="#">Help Center</a>
-            </li>
-            
-          </ul>
-          <div class="nav-item dropdown mb-3">
-           
-            <a class="nav-link shadow-0 dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false" href="#"><img src="../img/Ellipse 3.jpg" alt=""/></a>
-          
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li><a class="dropdown-item" href="profile-page.html" id="text-black" >Profile</a></li>
-              <li><a class="dropdown-item" href="review-rating.html" id="text-black" >Review</a></li>
-              <li><a class="dropdown-item" href="payment.html" id="text-black" >Payment</a></li>
-              <li><a class="dropdown-item" href="#" id="text-black" >Created Events</a></li>
-              <div role="separator" class="dropdown-divider"></div>
-              <li><a class="dropdown-item" href="index.html" id="text-black" >Logout</a></li>
-            </ul>
-          </div>
-        </div>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="landing-user.html">
+      <img src="./img/LOGO.png" alt="" />
+    </a>
+    <button
+      class="navbar-toggler nav-text"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-text" id="navbarNavDropdown">
+      <form
+      class="
+      form-inline
+      my-2 my-lg-0
+        align-items-center
+        mr-sm-2
+        search-bar
+        mx-auto
+        "
+      
+    >
+      <input
+        class="form-control mr-sm-2 my-1 nav-text d-flex" 
+        type="search"
+        placeholder="&#128269 Search"
+        aria-label="Search"
         
+      />
+    </form>
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item active mx-3">
+          <a class="nav-link" href="create-event.html">Create an Event</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="#">Help Center</a>
+        </li>
+        <li class="nav-item mx-3">
+            <a class="nav-link" href="#"><img src="./img/Ellipse 3.jpg" alt=""/></a>
+          </li>
+      </ul>
+    </div>
+  </nav>   
+  <nav class="nav nav-2">
+        
+    <a class="nav-link active mx-center" href="how-it-works-user.html">How It Works</a>
+    <a class="nav-link" href="auctionuser.html">Browse Auctions</a>
+    <a class="nav-link" href="add-bid-page.html">Add Bid</a>
       </nav>
-      <div class="p-3 btn-col text-white">
-        <div class="container">
-            <a href="how-it-works-user.html" class="pl-3 p-2 a-link">How it Works</a>
-            <a href="auctionuser.html" class="p-2 a-link">Browse Auction</a>
-            <a href="add-bid-page.html" class="p-2 a-link">Add Bid</a>
-        </div>
-      </div>
   
-        <div class="px-4">
+  <div class="container-fluid px-5">
           
           <form action="#" class="form-inline pt-3 sel-cat">
-            <div class="container">
               <h4 class="hd-txt pt-5">Select Category</h4>
                 <div class="custom-control p-3 custom-radio d-sm-block d-lg-inline d-md-inline mr-5">
                   <input type="radio" class="custom-control-input active" id="paintings" checked="" name="painting" value="painting">
@@ -120,7 +101,7 @@
                   <input type="radio" class="custom-control-input" id="ceramicsglass" name="ceramic" value="ceramic">
                   <label class="custom-control-label hd-txt" for="ceramicglass">Ceramics/Glass</label>
                 </div>
-            </div>
+        
           </form>
         </div>
 
@@ -204,10 +185,10 @@
             </div>
         </div>
       
-        <footer class="container-fluid py-5 px-5 ">
-          <div class="text-center ft-text ">
+        <footer class="">
+          <div class="container ft-text">
             <div class="row">
-              <div class="col-md-4 mx-auto">
+              <div class="col-4 mx-auto">
                 <div class="card-body">
                   <p><img src="./img/event360-small.png" alt="event logo" /></p>
                   <span>
@@ -222,34 +203,33 @@
               </div>
               <div class="col-sm pt-4">
                 <div class="card-body ">
-                  <h5 class="card-title pb-3">Company</h5>
-                  <a href="about-us.html"><p class="card-text ft-text ft-text-sm pb-2">About Us</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Pricing</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">FAQs</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Testimonials</p></a>
+                  <h5 class="card-title">Company</h5>
+                  <a href="about-us.html"><p class="card-text ft-text ft-text-sm">About Us</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm">Pricing</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm">FAQs</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm">Testimonials</p></a>
                 </div>
               </div>
     
               <div class="col-sm pt-4">
                 <div class="card-body">
-                  <h5 class="card-title pb-3">Plan Event</h5>
-                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Wedding</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Birthday</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Funeral</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Sports Event</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Exhibition</p></a>
+                  <h5 class="card-title">Plan Event</h5>
+                  <a href="#"><p class="card-text ft-text ft-text-sm">Wedding</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm">Birthday</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm">Funeral</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm">Sports Event</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm">Exhibition</p></a>
               </div>
             </div>
               <div class="col-sm pt-4">
                 <div class="card-body">
-                  <h5 class="card-title pb-3">Contact Support</h5>
-                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Help Center</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Privacy</p></a>
-                  <a href="#"><p class="card-text ft-text ft-text-sm pb-2">Terms and Conditions</p></a>
+                  <h5 class="card-title">Contact Support</h5>
+                  <a href="#"><p class="card-text ft-text ft-text-sm">Help Center</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm">Privacy</p></a>
+                  <a href="#"><p class="card-text ft-text ft-text-sm">Terms and Conditions</p></a>
                 </div>
               
             </div>
-          </div>
           </div>
         </footer>
 
