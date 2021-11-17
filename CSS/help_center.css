@@ -1,0 +1,148 @@
+.blue_nav-bar{
+    height: 50px;
+    background-color: #0E0E2C;
+}
+
+.hero{
+    min-height: 30vh;
+    background-image: url(../Image/Rectangle\ 229.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.input-form input {
+    width: 70%;
+    height: 50px;
+
+}
+.btn-input {
+    background-color: #2750A8;
+    height: 50px;
+}
+
+.help h1 {
+    font-size: 34px;
+}
+
+.card {
+    width: 200px;
+    height: 240px;
+    border-radius: 30px;
+}
+
+.img-card {
+    width: 90%;
+}
+.card-text b {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #2750A8;
+}
+
+.faq h1 {
+    font-size: 48px;
+}
+.faq h3 {
+    color: #9EA2BB;
+}
+.question-box {
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #D8D8EA;
+    margin: 5em auto;
+}
+.plus {
+    width: 40px;
+    height: 40px;
+}
+.inner-question h4 {
+    color: #012762;
+    padding-left: 1em;
+}
+.footer-question {
+    color: #012762;
+}
+.span-mail {
+    color: #9EA2BB;
+}
+
+.account {
+    background-image: url(../Image/Rectangle\ 249.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height: 20vh;
+}
+.account-bg {
+    background-image: url(../Image/Rectangle\ 249\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20vh;
+}
+.before {
+    color: #9EA2BB;
+}
+.left-category li {
+    list-style: url(../Image/star1.svg);
+}
+
+.emoji {
+    margin-top: 20em;
+}
+.after{
+    color: #012762;
+}
+.help-box {
+    width: 90%;
+    min-height: 50em;
+}
+.size-bold {
+    font-size: 25px;
+}
+.size-bold2 {
+    font-size: 18px;
+}
+.size-bold3 {
+    font-size: 22px;
+}
+.end-text {
+    color: #9EA2BB;
+}
+.add-text {
+    font-size: 18px;
+}
+@media (max-width:992px) {
+    .emoji2 {
+        flex-direction: column;
+    }
+}
+@media (max-width:500px) {
+    .add-bid1 {
+        padding-left: 0 !important;
+    }
+    .input-form form {
+        flex-direction: column;
+        row-gap: 1em;
+    }
+    .input-form {
+        padding-left: 1em;
+    }
+    .input-form input {
+        width: 90%;
+        
+    }
+    .input-form button {
+        width: 70%;
+    }
+}
+@media(max-width:380px) {
+    .add-text {
+        font-size: 12px;
+    }
+}
+@media (max-width:320px) {
+    .box {
+        margin: 0 auto;
+    }
+    
+}
