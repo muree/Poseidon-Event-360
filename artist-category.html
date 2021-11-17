@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>artist-category</title>
-    <link rel="stylesheet" href="./CSS/bootstrap.css" />
-    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/gbite.css">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gbite.css">
     <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
@@ -21,72 +21,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">
-          <img src="./img/LOGO.png" alt="" />
-        </a>
-        <button
-          class="navbar-toggler nav-text"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse nav-text" id="navbarNavDropdown">
-          <form
-          class="
-          form-inline
-          my-2 my-lg-0
-            align-items-center
-            mr-sm-2
-            search-bar
-            mx-auto
-            "
-          
-        >
-          <input
-            class="form-control mr-sm-2 my-1 nav-text d-flex" 
-            type="search"
-            placeholder="&#128269 Search"
-            aria-label="Search"
-            
-          />
-        </form>
-          <ul class="navbar-nav ms-auto text-center">
-            <li class="nav-item active mx-3">
-              <a class="nav-link" href="create-event.html">Create an Event</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="auction.html">Auction House</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="login-page.html">Login</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="signup-user.html">Signup</a>
-            </li>
-          </ul>
+    <nav class="container navbar navbar-expand-lg small-text navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/LOGO.png" alt="" width="auto" height="30" class="d-inline-block align-text-top">
+          </a>
+          <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <form class="d-flex btn-group">
+                        <input class="form-control form-control-sm rounded-start search" style=" border-color: #2750A8 ;" type="search" size="70" placeholder="Search Categories" aria-label="Search">
+                        <button class="btn btn-dark btn-sm px-4 me-5 rounded-end" type="submit">Search</button>
+                    </form>
+                    <div class="navbar-nav">
+                        <a class="nav-link color-blue" href="create-event.html">Create an Event</a>
+                        <a class="nav-link color-blue" href="auction.html">Auction House</a>
+                        <a class="nav-link color-blue" href="login-page.html">Login</a>
+                        <a class="nav-link color-blue" href="signup-user.html">Signup</a>
+                    </div>    
+                </div>
+          </div>
         </div>
-      </nav>
+    </nav>
     <nav class="navbar-light navbar-expand-lg" style="background-color: #D8D8D8;">
         <div class="container">
             <div>
-
-                <button
-          class="navbar-toggler nav-text"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="d-flex poppins-nav small-text2 fw-bolder gap-5 navbar-nav">
                         <a class="nav-link color-blue" href="#">DJ'S</a>
@@ -107,7 +71,7 @@
             <h5 class="color-blue poppins-nav fw-bolder pt-5 ">Artists</h5>
             <div class="row pt-3 justify-content-center" id="artist-section">
                 <div class="col-12 col-md-4 col-lg-4 pe-4">
-                    <a href="#" class="text-decoration-none"><img src="img/Vendors/Rectangle 101.png" alt="Nathaniel Tetteh" class="img-fluid vendor-img">
+                    <a href="vendor-profile.html" class="text-decoration-none"><img src="img/Vendors/Rectangle 101.png" alt="Nathaniel Tetteh" class="img-fluid vendor-img">
                     <p class="bg-white shadow-vend color-blue poppins-nav small-text2 fw-bolder py-3 ps-3 ">Nathaniel Tetteh.</p></a>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 pe-4">
@@ -197,23 +161,8 @@
           </div>
         </div>
     </footer>
-    <script
-    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"
-  ></script>
     <script src="script/bootstrap.js"></script>
     <script src="script/bootstrap.min.js"></script>
-    <script src="script/gbite-app.js"></script>
+    <script src="script/app.js"></script>
 </body>
 </html>
