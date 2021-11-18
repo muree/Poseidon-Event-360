@@ -13,7 +13,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="landing-user.html">
-        <img src="./img/LOGO.png" alt="" />
+        <img src="./img/LOGO(1).png" alt="" />
       </a>
       <button
         class="navbar-toggler nav-text"
@@ -57,9 +57,9 @@
             <a class="nav-link" href="bookmark.html">Bookmarks</a>
           </li>
           </ul>
-          <div class="nav-item mx-3 dropdown mb-3 shadow-0">
+          <div class="nav-item  dropdown mb-3 shadow-0">
              
-            <a class="nav-link shadow-0 dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false" href="#"><img src="../img/Ellipse 3.jpg" alt="" style="width: 50%; height: 50%;"/></a>
+            <a class="nav-link shadow-0 dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false" href="#"><img src="./img/Ellipse 3.jpg" alt="" width="62" height="62" class="img-fluid"/></a>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li><a class="dropdown-item" href="profile-page.html">Profile</a></li>
               <li><a class="dropdown-item" href="landing-user.html">Homepage</a></li>
@@ -74,74 +74,86 @@
     </nav>
  <div class="profile-updated container space-top">
    <div class="row">
-     <div class="col py-5">
-         <div class="">
-            <h3 class="pb-4">Create Event</h3>
-         </div>
+    <div class="">
+      <h3 class="pb-4 pt-5">Create Event</h3>
+   </div>
+     <div class="col-12 ">
        
        <div>
          <form class="pb-5" action="">
-          <div class="form-group">
-            <label class="pb-2 pt-3" for="" >Event Name</label>
-            <input
-              type="text"
-              class="form-control form-control-lg"
-              id=""
-              placeholder=""
-            />
+           <div class="row">
+            <div class="form-group col-lg-7 col-md-7 col-sm-12">
+              <label class="pb-2 pt-3" for="" >Event Name</label>
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id=""
+                placeholder=""
+              />
+            </div>
+           </div>
+           <div class="row">
+            <div class="form-group col-lg-7 col-md-7 col-sm-12">
+              <label class="pb-2 pt-3" for="">Event Type</label>
+          
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select Event</option>
+              <option value="1">Wedding</option>
+              <option value="2">Birthday</option>
+              <option value="3">Funeral</option>
+              <option value="4">Sports Event</option>
+              <option value="5">Exhibition</option>
+            </select>
           </div>
-          <div class="form-group">
-            <label class="pb-2 pt-3" for="">Event Type</label>
-        
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Select Event</option>
-            <option value="1">Wedding</option>
-            <option value="2">Birthday</option>
-            <option value="3">Funeral</option>
-            <option value="4">Sports Event</option>
-            <option value="5">Exhibition</option>
-          </select>
-        </div>
-          <div class="form-group">
-            <label class="pb-2 pt-3" for="" >Event Duration</label>
-            <input
-              type="text"
-              class="form-control form-control-lg"
-              id=""
-              placeholder=""
-            />
+           </div>
+           <div class="row">
+            <div class="form-group col-lg-7 col-md-7 col-sm-12">
+              <label class="pb-2 pt-3" for="" >Event Duration</label>
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id=""
+                placeholder=""
+              />
+            </div>
+           </div>
+           <div class="row">
+            <div class="form-group col-lg-7 col-md-7 col-sm-12">
+              <label class="pb-2 pt-3" for="">Event Location</label>
+              <input
+                type="phone"
+                class="form-control form-control-lg"
+                id=""
+                placeholder=""
+              />
+            </div>
+           </div>
+           <div class="row">
+            <div class="form-group col-lg-7 col-md-7 col-sm-12">
+              <label class="pb-2 pt-3" for="">Event Description</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+           </div>
+          <h4 class="pt-5">Vendors</h4>
+          <div class="row">
+            <div class="form-group col-lg-7 col-md-7 col-sm-12">
+              <label class="pb-2 pt-3" for="">Book Vendors</label>
+          
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select Vendor</option>
+              <option value="1">Vendor1</option>
+              <option value="2">Vendor2</option>
+              <option value="3">Vendor3</option>
+            </select>
           </div>
-          <div class="form-group">
-            <label class="pb-2 pt-3" for="">Event Location</label>
-            <input
-              type="phone"
-              class="form-control form-control-lg"
-              id=""
-              placeholder=""
-            />
           </div>
-          <div class="form-group">
-            <label class="pb-2 pt-3" for="">Event Description</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <h4>Vendors</h4>
-          <div class="form-group">
-            <label class="pb-2 pt-3" for="">Book Vendors</label>
-        
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Select Vendor</option>
-            <option value="1">Vendor1</option>
-            <option value="2">Vendor2</option>
-            <option value="3">Vendor3</option>
-          </select>
-        </div>
          </form>
-         <div class="row">
+         <div class="row pb-5">
              <div class="col">
                  <button type="button" class="btn btn-primary w-50">Book</button>
              </div>
-             <div class="col">
-              <button type="button" class="btn btn-link">Cancel</button>
+             <div class="col pb-5">
+              <button type="button" class="btn btn-link text-decoration-none text-danger fw-bolder">Cancel</button>
            </div>
          </div>
         
